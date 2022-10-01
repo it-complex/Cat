@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог продукции</title>
+</head>
+<body class="page-body">
+  <header class="page-header">
+    <!--Логотип-->
+    <a class="page-header__logo">
+      <img class="page-header__logo-mobile" src="img/logo-mobile.svg" width="33.32" height="37.61" alt="Логотип Кэт энерджи»">
+      <img class="page-header__logo-title" src="img/title-logo 2.svg" width="101" height="18" alt="Надпись Кэт энерджи">
+    </a>
+    <!--Кнопка навигации-->
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+    </nav>
+    <!--Навигация-->
+    <div class="main-nav__wrapper">
+      <ul class="main-nav__list">
+        <li class="site-list__item">
+          <a href="index.html">
+            Главная
+          </a>
+        </li>
+        <li class="site-list__item site-list__item--active">
+          <a>
+            Каталог продукции
+          </a>
+        </li>
+        <li class="site-list__item">
+          <a href="form.html">
+            Подбор программы
+          </a>
+      </ul>
+    </div>
+  </header>
+<!--Основной контент-->
+  <main class="page-main">
+    <section class="text-header">
+      <h1 class="text-header__title">Каталог продукции</h1>
+    </section>
+<!--Карточка товара-->
+    <section class="catalog wrapper">
+      <h2 class="visually-hidden">Каталог</h2>
+      <ul class="catalog__cart-list">
+        <li class="catalog__cart-item">
+          <div class="cart-img">
+            <img src="img/catalog-1-desktop 1.png" alt="Cat Energy PRO 500 г">
+          </div>
+          <div class="cart-title">
+            <p>Cat Energy PRO 500 г</p>
+          </div>
+          <div class="description-wrapper">
+            <dl class="description-list">
+              <dt class="description-items">Масса</dt>
+              <dd class="description-value">500 г</dd>
+              <dt class="description-items">Вкус</dt>
+              <dd class="description-value">Курица</dd>
+              <dt class="description-items">Цена</dt>
+              <dd class="description-value">700 р.</dd>
+            </dl>
+          </div>
+          <button>Заказать</button>
+        </li>
+        <li class="more wrapper">
+          <div class="more-img">
+            <img src="img/plus.svg" alt="Показать еще">
+          </div>
+          <div class="more-title">
+            <p>Показать еще 100500 товаров</p>
+          </div>
+          <div class="more-description">
+            <p>На самом деле вкусов гораздо больше!</p>
+          </div>
+          <button>Показать все</button>
+        </li>
+      </ul>
+    </section>
+    <!--Дополнительные товары-->
+    <section class="additional-products wrapper">
+      <h1 class="text-header__title">Дополнительные товары</h1>
+      <ul class="additional-products__cart-list">
+        <li class="additional-products__cart-item">
+          <div class="additional-products__cart-title">
+            <p>Сахарозаменитель</p>
+          </div>
+            <dl class="additional-products__description">
+              <dt class="additional-products__description-items">1 упаковка (100г)</dt>
+              <dd class="additional-products__description-value">200 р.</dd>
+            </dl>
+          <button class="additional-products__button">Заказать</button>
+        </li>
+      </ul>
+    </section>
+<!-- Еще один блок-->
+  </main>
+  <!--Футер-->
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+
+      <div class="page-footer__logo">
+        <img class="page-footer__img" src="img/footer-logo 2.png" width="128" height="24" alt="Надпись Кэт энерджи">
+      </div>
+      <div class="page-footer__social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+          </li>
+      </div>
+      <div class="page-footer__copyright">
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        <img class="page-footer__img" src="img/html academy.svg" width="27" height="34" alt="HTML Academy">
+      </div>
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
